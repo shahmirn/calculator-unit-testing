@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "istanbul cover node_modules/jasmine/bin/jasmine.js",
+    "test:watch": "nodemon --exec npm test"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/jasmine": "^2.5.35",
+    "istanbul": "^0.4.5",
     "jasmine": "^2.5.2",
     "nodemon": "^1.11.0",
     "typescript": "^2.0.3"
