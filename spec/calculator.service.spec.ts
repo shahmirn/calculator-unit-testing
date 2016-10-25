@@ -1,4 +1,4 @@
-import { CalculatorService } from "../calculator.service";
+import { CalculatorService } from "../src/calculator.service";
 
 describe("CalculatorService", () => {
     let calculatorService: CalculatorService;
